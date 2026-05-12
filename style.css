@@ -1,0 +1,153 @@
+body {
+    @font-face {
+        font-family: Roboto;
+        src: url(https://fonts.googleapis.com);
+    }
+    font-family: Roboto, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;  
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    background-color: #1f2937;
+    font-family: Roboto, sans-serif;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+    max-width: auto;
+    max-height: 200px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px;
+    max-width: auto;
+    max-height: 200px;
+    margin-left: 150px;
+}
+
+ul li{
+    color: #f9faf8;
+    color:#f6f7f8
+}
+
+li a {
+    color: #f9faf8;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.main-container {
+    display: flex;
+    background-color: #1f2937;
+    max-width: auto;
+    max-height: 1200px;
+    justify-content: space-evenly;
+}
+
+.content-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+
+}
+.text1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+    max-width: 400px;
+}
+.text2 {
+    font-size: 18px;
+    color: #d1d5db;
+    margin-bottom: 10px;
+    text-align: left;
+    max-width: 400px;
+}
+
+.button {
+    background-color: #3882f6;
+    color: white;
+    justify-self: start;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    text-align: center;
+    color:#030303;
+    font-size: 24px;
+    font-weight: bold;  
+}
+
+.container2 {
+    display: flex;         /* Aligns items horizontally by default */ /* Spacing between items */
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+figure {
+    width: auto;            /* Adjust width based on number of images */
+    text-align: center;    /* Centers the caption text under the image */
+    margin: 2px;
+    border-radius: 10px;
+}
+
+img {
+    width: 200px;           /* Makes images responsive to their container */
+    height: 200px;          /* Maintains aspect ratio */
+    border-radius: 10px;
+}
+
+
+.container3 {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    text-align: center;
+    padding: 20px;
+    font-size: 36px;
+    margin-top: 30px;
+}
+
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
